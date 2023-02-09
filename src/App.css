@@ -1,0 +1,42 @@
+#root {
+  width: min(960px, 60vmin);
+  aspect-ratio: 4 / 3;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  background: #333333;
+  border: 1px solid #404040;
+  border-radius: 0.5rem;
+}
+
+#root * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#div-loader {
+  width: 6rem;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #404040;
+
+  svg {
+   max-width: 100%;
+ }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
